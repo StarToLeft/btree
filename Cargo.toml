@@ -1,0 +1,11 @@
+[package]
+name = "btree-one"
+version = "0.1.0"
+authors = ["anton"]
+edition = "2018"
+
+[dependencies]
+array-macro = "2.0.0"
+uuid = { version = "0.8.2", features = ["serde", "v4"] }
+names = "0.11.0"
+lazy_static = "1.4.0"
